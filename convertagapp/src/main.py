@@ -4,6 +4,7 @@ import os
 
 async def main(page: ft.Page):
     page.title = "Convertag"
+    page.window.icon = "logo.png"
     page.horizontal_alignment=ft.CrossAxisAlignment.CENTER
     page.vertical_alignment=ft.MainAxisAlignment.CENTER
     page.window.width=700
@@ -249,4 +250,4 @@ async def main(page: ft.Page):
        
 
 if __name__ == "__main__":
-    ft.run(main)
+    ft.run(main, assets_dir="assets")
