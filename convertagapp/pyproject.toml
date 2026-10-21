@@ -1,0 +1,28 @@
+[build-system]
+
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "convertag"
+version = "0.1.0"
+description = "Приложение на Flet для конвертации обычных изображений"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Fastnake", email = "arsengab9@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "flet>=0.21.0",
+    "Pillow>=10.0.0",
+    "rawpy>=0.19.0",
+    "pillow-heif>=0.15.0",
+]
+
+[project.urls]
+Homepage = "https://github.com"
